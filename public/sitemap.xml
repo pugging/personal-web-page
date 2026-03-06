@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://bogdanovskiy.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/portfolio.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/pl/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/portfolio.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/about.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/pl/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/about.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/contact.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/pl/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bogdanovskiy.com/pl/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogdanovskiy.com/contact.html" />
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects (English) -->
+  <url>
+    <loc>https://bogdanovskiy.com/projects/job-bot.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/projects/smartqueue.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/projects/algo-trader.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/projects/thesis-analyzer.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/projects/scoring-system.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bogdanovskiy.com/projects/dino-analysis.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
