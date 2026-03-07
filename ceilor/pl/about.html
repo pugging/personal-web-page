@@ -103,7 +103,8 @@ window.addEventListener("scroll",function(){var h=document.documentElement;var p
 
 // Language toggle
 (function(){
-  var lang = localStorage.getItem("db-lang") || "en";
+  var lang = "pl";
+  localStorage.setItem("db-lang", "pl");
   function setLang(l){
     lang=l; localStorage.setItem("db-lang",l);
     document.querySelectorAll("[data-en]").forEach(function(el){
