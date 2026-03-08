@@ -53,6 +53,30 @@ html{scroll-behavior:smooth}
 }
 .lang-btn.active{background:#000;color:#fff}
 .lang-btn:hover:not(.active){color:#000}
+
+/* Footer columns alignment */
+.footer-menu-main-wrap{width:100%}
+.footer-menu-wrapper.respoonsive-off{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(180px,1fr));
+  column-gap:56px;
+  row-gap:24px;
+  align-items:start;
+}
+.footer-menu-single{margin:0!important}
+.footer-menu-single .footer-menu-flex{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  gap:12px;
+}
+@media (max-width: 991px){
+  .footer-menu-wrapper.respoonsive-off{
+    display:flex!important;
+    column-gap:0;
+    row-gap:0;
+  }
+}
 </style>
 <script defer src="/_vercel/insights/script.js"></script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
@@ -73,14 +97,37 @@ html{scroll-behavior:smooth}
 </div>
 <div style="background:#f8fafc;padding:40px;border-radius:24px;border:1px solid #f1f5f9;transition:all .4s cubic-bezier(.4,0,.2,1)" onmouseover="this.style.transform='translateY(-8px)';this.style.borderColor='#000';this.style.boxShadow='0 20px 40px rgba(0,0,0,.05)'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#f1f5f9';this.style.boxShadow='none'">
 <div style="width:48px;height:48px;margin-bottom:24px;display:flex;align-items:center;justify-content:center">
-  <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="22" fill="#c8e84e"/><path d="M24 2a22 22 0 0 1 0 44" fill="#a0d911"/><ellipse cx="24" cy="24" rx="22" ry="22" fill="none" stroke="#7cb305" stroke-width="1.5"/><path d="M24 4c5 3 9.5 11 9.5 20S29 41 24 44" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M24 4c-5 3-9.5 11-9.5 20S19 41 24 44" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="4" y1="16" x2="44" y2="16" stroke="#fff" stroke-width="1.5"/><line x1="4" y1="32" x2="44" y2="32" stroke="#fff" stroke-width="1.5"/></svg>
+  <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="tennisGrad" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#b9f227"/>
+        <stop offset="1" stop-color="#6dbf00"/>
+      </linearGradient>
+    </defs>
+    <circle cx="24" cy="24" r="18" fill="url(#tennisGrad)"/>
+    <circle cx="24" cy="24" r="18" fill="none" stroke="#89cf17" stroke-width="1.5"/>
+    <path d="M24 8.5c-4.6 2.2-8 8.2-8 15.5s3.4 13.3 8 15.5" stroke="#f4ffe8" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M24 8.5c4.6 2.2 8 8.2 8 15.5s-3.4 13.3-8 15.5" stroke="#f4ffe8" stroke-width="2.2" stroke-linecap="round"/>
+  </svg>
 </div>
 <h3 style="font-size:20px;font-weight:700;margin-bottom:12px;font-family:'Instrument Sans',sans-serif">Tennis</h3>
 <p style="font-size:15px;line-height:1.6;color:#64748b;font-family:Inter,sans-serif" data-en="A lifelong pursuit of strategy, physical discipline, and mental resilience on the court." data-pl="Pasja do strategii, dyscypliny fizycznej i odporności psychicznej na korcie.">A lifelong pursuit of strategy, physical discipline, and mental resilience on the court.</p>
 </div>
 <div style="background:#f8fafc;padding:40px;border-radius:24px;border:1px solid #f1f5f9;transition:all .4s cubic-bezier(.4,0,.2,1)" onmouseover="this.style.transform='translateY(-8px)';this.style.borderColor='#000';this.style.boxShadow='0 20px 40px rgba(0,0,0,.05)'" onmouseout="this.style.transform='translateY(0)';this.style.borderColor='#f1f5f9';this.style.boxShadow='none'">
 <div style="width:48px;height:48px;margin-bottom:24px;display:flex;align-items:center;justify-content:center">
-  <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="18" r="8" fill="#4f46e5"/><circle cx="16" cy="18" r="6" fill="#7c3aed"/><circle cx="32" cy="18" r="6" fill="#6366f1"/><path d="M6 42v-2c0-5.523 4.477-10 10-10h16c5.523 0 10 4.477 10 10v2" fill="#818cf8"/><path d="M2 44v-2c0-4.418 3.582-8 8-8h4" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/><path d="M46 44v-2c0-4.418-3.582-8-8-8h-4" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/></svg>
+  <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="leadGrad" x1="10" y1="8" x2="38" y2="36" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#7c3aed"/>
+        <stop offset="1" stop-color="#2563eb"/>
+      </linearGradient>
+    </defs>
+    <circle cx="24" cy="15" r="5.5" fill="url(#leadGrad)"/>
+    <circle cx="14.5" cy="18" r="4.5" fill="url(#leadGrad)" opacity="0.7"/>
+    <circle cx="33.5" cy="18" r="4.5" fill="url(#leadGrad)" opacity="0.7"/>
+    <path d="M15.5 34c0-4.6 3.6-8.2 8.5-8.2s8.5 3.6 8.5 8.2" stroke="url(#leadGrad)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M7.5 34c0-3.5 2.8-6.3 6.3-6.3m20.4 6.3c0-3.5 2.8-6.3 6.3-6.3" stroke="url(#leadGrad)" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>
+  </svg>
 </div>
 <h3 style="font-size:20px;font-weight:700;margin-bottom:12px;font-family:'Instrument Sans',sans-serif" data-en="Leadership" data-pl="Przywództwo">Leadership</h3>
 <p style="font-size:15px;line-height:1.6;color:#64748b;font-family:Inter,sans-serif" data-en="Leading teams and managing complex projects with a focus on impact and efficiency." data-pl="Kierowanie zespołami i zarządzanie złożonymi projektami z naciskiem na wpływ i efektywność.">Leading teams and managing complex projects with a focus on impact and efficiency.</p>
